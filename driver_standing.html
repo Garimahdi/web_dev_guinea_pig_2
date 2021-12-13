@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning HTML - Driver Standing</title>
+    <style>
+        .scoring {text-align:center;}.p1 {background-color:darkkhaki}.p2{background-color:silver}
+        .p3 {background-color:lightsalmon}.ps{background-color:lightgreen}.dnf{background-color:violet}
+        .na {background-color:black; color:white}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href='/'>Home</a></li>
+                <li><a href='/contact.html'>Contact</a></li>
+                <li><a href='/help.html'>Help</a></li>
+                <li><a href='https://dirtfish.com/'>All about rallying</a></li>
+                <li><a href='https://www.tgr-europe.com/en/' target='_blank'>Gazoo Racing Europe</a></li>
+                <li><a href='/survey_form.html'>Fill our survey!</a></li>
+                <li><a href='/driver_standing.html'>Driver standing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <aside>
+            <h4>Menu</h4>
+        </aside>
+    </div>
+
+    <main>
+        <h1>Driver standing</h1>
+        <table style='width:50%'>
+            <style>
+                table,th,td {
+                    border-collapse:collapse;
+                    border:1px solid black;
+                }
+                tr:nth-child(even) {
+                    background-color:rgba(150,212,212,0.6);
+                }
+                th {
+                    background-color:darkgray;
+                }
+            </style>
+            <tr>
+                <th width='5%'>Pos</th>
+                <th rowspan='1' width='20%'>Driver</th>
+                <th width='6%'>
+                    <a href='https://en.wikipedia.org/wiki/2021_Monte_Carlo_Rally' title='2021 Monte Carlo Rally'}>MON</a><br>
+                    <span><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/19px-Flag_of_Monaco.svg.png' /></span>
+                </th>    
+                <th width='6%'>
+                    <a href='https://en.wikipedia.org/wiki/2021_Croatia_Rally' title='2021 Croatia Rally'>CRO</a><br>
+                    <span><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/23px-Flag_of_Croatia.svg.png' /></span>
+                </th>    
+                <th width='6%'>
+                    <a href='https://en.wikipedia.org/wiki/2021_Ypres_Rally' title='2021 Ypres Rally'>BEL</a><br>
+                    <span><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/23px-Flag_of_Belgium_%28civil%29.svg.png' /></span>
+                </th>    
+                <th width='6%'>
+                    <a href='https://en.wikipedia.org/wiki/2021_Rally_Catalunya' title='2021 Rally Catalunya'>ESP</a><br>
+                    <span><img src='https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png' /></span>
+                </th>
+                <th width='6%'>
+                    <a href='https://en.wikipedia.org/wiki/2021_Rally_Monza' title='2021 Rally Monza'>MNZ</a><br>
+                    <span><img src='https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/23px-Flag_of_Italy.svg.png' /></span>
+                </th>    
+            </tr>
+
+            <tr>
+                <th>1</th>
+                <td>
+                    <span>S&#233;bastien Ogier</span>
+                    <span><img src='https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png' style='height:10%'/></span>
+                </td>
+                <td class='scoring p1'>
+                    <span>1<sup>1</sup></span>
+                </td>
+                <td class='scoring p1'>
+                    <span>1<sup>1</sup></span>
+                </td>
+                <td class='scoring ps'>
+                    <span>5<sup>2</sup></span>
+                </td>
+                <td class='scoring ps'>
+                    <span>4<sup>4</sup></span>
+                </td>
+                <td class='scoring p1'>
+                    <span>1<sup>5</sup></span>
+                </td>
+            </tr>
+
+            <tr>
+                <th>2</th>
+                <td>
+                    <span>Elfyn Evans</span>
+                    <span><img src='https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/23px-Flag_of_the_United_Kingdom.svg.png' /></span>
+                </td>
+                <td class='scoring p2'>
+                    <span>2<sup>3</sup></span>
+                </td>
+                <td class='scoring p2'>
+                    <span>2<sup>4</sup></span>
+                </td>
+                <td class='scoring ps'>
+                    <span>4<sup>5</sup></span>
+                </td>
+                <td class='scoring p2'>
+                    <span>2<sup>3</sup></span>
+                </td>
+                <td class='scoring p2'>
+                    <span>2<sup>4</sup></span>
+                </td>
+            </tr>
+
+            <tr>
+                <th>3</th>
+                <td>
+                    <span>Thierry Neuville</span>
+                    <span><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Belgium_%28civil%29.svg/23px-Flag_of_Belgium_%28civil%29.svg.png' /></span>
+                </td>
+                <td class='scoring p3'>
+                    <span>3<sup>4</sup></span>
+                </td>
+                <td class='scoring p3'>
+                    <span>3<sup>3</sup></span>
+                </td>
+                <td class='scoring p1'>
+                    <span>1<sup>3</sup></span>
+                </td>
+                <td class='scoring p1'>
+                    <span>1<sup>2</sup></span>
+                </td>
+                <td class='scoring ps'>
+                    <span>4<sup>1</sup></span>
+                </td>
+            </tr>
+
+            <tr>
+                <th>4</th>
+                <td>
+                    <span>Kalle Rovanper&#228;</span>
+                    <span><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Finland.svg/23px-Flag_of_Finland.svg.png' /></span>
+                </td>
+                <td class='scoring ps'>
+                    <span>4<sup>2</sup></span>
+                </td>
+                <td class='scoring dnf'>
+                    <span>Ret</span>
+                </td>
+                <td class='scoring p3'>
+                    <span>3<sup>4</sup></span>
+                </td>
+                <td class='scoring ps'>
+                    <span>5<sup>5</sup></span>
+                </td>
+                <td class='scoring ps'>
+                    <span>9</span>
+                </td>
+            </tr>
+
+            <tr>
+                <th>5</th>
+                <td>
+                    <span>Ott T&#228nak</span>
+                    <span><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Flag_of_Estonia.svg/23px-Flag_of_Estonia.svg.png' /></span>
+                </td>
+                <td class='scoring dnf'>
+                    <span>Ret</span>
+                </td>
+                <td class='scoring ps'>
+                    <span>4<sup>5</sup></span>
+                </td>
+                <td class='scoring ps'>
+                    <span>6<sup>1</sup></span>
+                </td>
+                <td class='scoring dnf'>
+                    <span>Ret</span>
+                </td>
+                <td class='scoring na'>
+                    <span>N/A</span>
+                </td>
+            </tr>
+        </table>
+    </main><br>
+
+    <div>
+        <footer>
+            <address>Ciseeng</address>
+            <div style='text-align:center;'>
+                <strong>
+                    <p>Testing HTML Website &copy; 2021</p>
+                </strong>
+            </div>
+        </footer>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Learning HTML - Fill our survey!</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href='/'>Home</a></li>
+                <li><a href='/contact.html'>Contact</a></li>
+                <li><a href='/help.html'>Help</a></li>
+                <li><a href='https://dirtfish.com'>All about rallying</a></li>
+                <li><a href='https://www.tgr-europe.com/en/' target='_blank'>Gazoo Racing Europe</a></li>
+                <li><a href='/survey_form.html'>Fill our survey!</a></li>
+                <li><a href='/driver_standing.html'>Driver standing</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+        <aside>
+            <h4>Menu</h4>
+        </aside>
+        <main>
+            <h1>Fill our survey!</h1>
+        </main>
+    </div>
+
+    <div>
+        <form>
+            <label for='fname'>First Name</label><br>
+            <input type='text' id='fname' name='fname' placeholder='Insert name here'><br>
+            <label for='lname'>Last Name</label><br>
+            <input type='text' id='lname' name='lname'>
+
+            <h4>Team</h4>
+            <input type='radio' id='manthey' name='team' value='Manthey'>
+            <label for='manthey'>Manthey</label><br>
+            <input type='radio' id='frikadelli' name='team' value='Frikadelli'>
+            <label for='frikadelli'>Frikadelli</label><br>
+            <input type='radio' id='sti' name=team value='STi'>
+            <label for='sti'>STi</label>
+
+            <h4>Tyre Compound</h4>
+            <input type='checkbox' id='h' name='tyre' value='Hard'>
+            <label for='h'>Hard</label><br>
+            <input type='checkbox' id='m' name='tyre' value='Medium'>
+            <label for='m'>Medium</label><br>
+            <input type='checkbox' id='s' name='tyre' value='Soft'>
+            <label for='s'>Soft</label><br><br>
+
+            <input type='submit' value='Submit'>
+            <input type='reset' value='Reset'>
+            <input type='button' value='Help' onclick='alert("Pick 2 tyre compounds")'>
+        </form>
+    </div>
+</body><br>
+
+<div>
+    <footer>
+        <div>
+            <address>Ciseeng</address>
+        </div>
+        <div style='text-align:center;'>
+            <strong>
+                <p>Testing HTML Website &copy; 2021</p>
+            </strong>
+        </div>
+    </footer>
+</div>
+
+</html>
